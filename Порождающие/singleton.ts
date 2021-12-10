@@ -2,7 +2,7 @@ class Person{
   private static _name: Person 
   login:string
   constructor(login:string){
-    if(Person._name===null){
+    if(!Person._name){
       return Person._name
     }
     Person._name = this

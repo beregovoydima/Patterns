@@ -92,5 +92,6 @@ const download = [
   absFactory.factorycreate('factureBus').createSecond(),
 ]
 download.forEach(m=>{
-  return console.log(m)})
+  return console.log(m)
+})
 
