@@ -1,3 +1,6 @@
+interface Commands{
+  execute(value)
+}
 class MyMath {
 number:number
 num:number
@@ -13,7 +16,7 @@ num:number
   }
 }
 
-class Command {
+class Command implements Commands {
   sub: any
   commands:any
   constructor(sub) {
